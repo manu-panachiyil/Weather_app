@@ -1,0 +1,104 @@
+@media (max-width: 1024px){
+    .main-temp{
+        font-size: 25px;
+        padding-left: 35px;
+        padding-top: 35px;
+    
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 998px){
+    .weather {
+        width: 150%;
+}}
+
+
+
+@media (max-width: 768px){
+    
+
+    .main-temp {
+        font-size: 28px;
+        padding-top: 35px;
+        display: flex;
+        margin-left: 30px;
+
+    }
+
+    .pname{
+        font-size: 28px;
+    }
+
+
+    .h-icon{
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .min-max-temp{
+        font-size: 16px;
+    }
+
+    .h-details{
+        margin-top: 15px;
+        font-weight: 700;
+    }
+
+    .feels {
+        padding-top: 20px;
+        padding-left: 50px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    body{
+        background-position: right;
+    }
+
+}
+
+@media (max-width: 550px){
+    .weather{
+        margin-top: 50px;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feels {
+        padding-top: 0px;
+        padding-left: 35px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .main-temp{
+        margin-left:0px;
+        font-size: 25px;
+    }
+    
+    .min-max-temp{
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+    .hr {
+        width: 55px;
+    }
+    body{
+        background-position: right;
+    }
+}
