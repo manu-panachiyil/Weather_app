@@ -30,8 +30,10 @@
 
     }
 
-    .pname{
-        font-size: 28px;
+    .pname {
+        font-size: 35px;
+        font-weight: 700;
+        margin-left: -115px;
     }
 
 
